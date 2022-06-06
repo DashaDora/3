@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1440px;
+}
+body{
+    background-color: #E5E5E5;
+}
+header{
+    float: left;
+}
+.container img{
+    float: right;
+    width: 660px;
+    height: 878px;
+    top: 64px;
+    bottom: 126px;
+    left: 780px
+}
+.logo img{
+    position: absolute;
+    left: 188.56px;
+    right: 1225.56px;
+    top: 43px;
+    bottom: 839.57px;
+    width: 25.88px;
+    height: 57.43px;
+}
+.link a{
+    position:relative;
+    width: 100px;
+    height: 27px;
+    left: 298px;
+    top: 59px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.link a:first-child{
+    color: #C08D5D;
+}
+.logo::after{
+    content: '';
+    position: absolute;
+    width: 470px;
+    height: 0px;
+    left: 179.97px;
+    top: 144.5px;
+    border: 1px solid #C08D5D;
+}
+.food h1{
+    position: absolute;
+    width: 130px;
+    height: 58px;
+    left: 180px;
+    top: 282px;
+    bottom: 600px;
+    right: 1130px;
+    font-family: 'Yeseva One';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+    .food::after{ 
+   content: url(../img/Logo.svg);
+    position: absolute;
+    top: 267px;
+    left: 332.69px;
+    right: 1077.2px;
+    bottom: 605.79px;
+    width: 30.28px;
+    height: 67.21px;
+} 
+.farming h2{
+    position: absolute;
+    width: 355px;
+    height: 68px;
+    left: 180px;
+    top: 347px;
+    bottom: 525px;
+    right: 905px;
+    font-family: 'Yeseva One';
+    font-style:normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+.farming::after{
+    content: url(../img/Vector\ 1.svg);
+    position: absolute;
+    width: 165px;
+    height: 9.03px;
+    left: 184px;
+    top: 460px;
+    bottom: 470.97px;
+    right: 1091px;
+}
+.text p{
+    position: absolute;
+    width: 535px;
+    height: 108px;
+    left: 180px;
+    top: 495px;
+    bottom: 337px;
+    right: 725px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+.read_more a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 64px;
+    color: #3F4042;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #FFFAF3;
+    border: 2px solid #C08D5D;
+    padding-left: 15px;
+    position: absolute;
+    top: 692px;
+    left: 195px;
+    width: 138px;
+    
+}
+.read_more a::after{
+    content: url(../img/Vector\ 2.svg);
+    display: inline-block;
+    background-color:#C08D5D;
+    width: 30px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 11px;
+    position: absolute;
+    margin-bottom: 3px;
+}
+
+.mouse a::after{
+content: url(../img/Vector\ 3.svg);
+position: absolute;
+left: 703px;
+right: 703.53px;
+top: 823.88px;
+bottom: 68.6px;
+background: #C08D5D;
+width: 10px;
+}
+.mouse::after{
+    content: url(../img/Vector\ 4.svg);
+    top: 836.89px;
+    bottom: 94.46px;
+    left: 718.16px;
+    right: 718.69px;
+    position: absolute;
+}
+.ellipse a::after{
+    content: url(../img/Ellipse\ 5.svg);
+    top: 800.51px;
+    bottom: 68.6px;
+    left: 717.85px;
+    right: 717.69;
+    position: absolute;
+}
+.ellipse_2 a::after{
+    content: url(../img/Ellipse\ 6.svg);
+    top: 790px;
+    bottom: 133.94px;
+    left: 717.85px;
+    right: 717.69px;
+    position: absolute;
+}
